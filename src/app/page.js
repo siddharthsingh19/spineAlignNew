@@ -19,7 +19,7 @@ export default function Home() {
               our collection today and experience the transformative power of
               therapy equipment.
             </p>
-            <Link href="/products" className="viewButton">
+            <Link href="/products" className={styles.viewButton}>
               Explore
             </Link>
           </div>
