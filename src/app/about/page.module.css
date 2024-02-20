@@ -1,0 +1,22 @@
+.aboutDiv {
+  margin-top: 200px;
+  line-height: 2rem;
+}
+
+.aboutHeading {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.aboutPara {
+  font-size: 1.2rem;
+  margin: 40px 0;
+}
+
+.ul {
+  margin: 10px;
+}
+
+.li {
+  margin-left: 30px;
+}

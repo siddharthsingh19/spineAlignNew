@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conHeading {
+  margin-top: 200px;
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+
+.conWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cont {
+  width: 500px;
+  height: 300px;
+  border: 2px solid red;
+  padding: 20px 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cont:hover {
+  background-color: rgba(0, 145, 255, 0.283);
+}
+
+.cont > p {
+  font-size: 2rem;
+}
+.contactme {
+  font-size: 2rem;
+}
+
+.contactme:hover {
+  color: orangered;
+  font-weight: 700;
+}

@@ -1,0 +1,45 @@
+.container {
+  /* background-color: #444; */
+  height: 100px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  /* background: red; */
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.6px);
+  -webkit-backdrop-filter: blur(7.6px);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  position: fixed;
+  z-index: 99;
+}
+
+.container_wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  padding: 0 40px;
+  width: 1366px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.link:active {
+  color: orange;
+}
