@@ -223,7 +223,6 @@ a {
     /* transform-origin: top; */
     animation-name: slide-bottom;
     animation-duration: 1s;
-    z-index: 20;
   }
   /* 
   .links:hover {
