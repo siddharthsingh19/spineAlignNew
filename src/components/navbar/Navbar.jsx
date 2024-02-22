@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./page.module.css";
 import { LangButton, LogoutButton } from "../Buttons/Button";
+import { FaCaretDown } from "react-icons/fa6";
+
 const links = [
   {
     id: 1,
@@ -26,19 +29,23 @@ const links = [
 ];
 
 const Navbar = () => {
+  const [hamLink, sethamLink] = useState(false);
   return (
-    <div className={styles.container}>
+    <div className="nav-container">
       <div className={styles.container_wrapper}>
         <Link href="/" className={styles.logo}>
           SpineAlign
         </Link>
-        <div className={styles.links}>
+        <div className={hamLink ? "links hlinks" : "links"}>
           {links.map((link) => (
             <Link key={link.id} href={link.url} className={styles.link}>
               {link.title}
             </Link>
           ))}
-          <LangButton />
+          {/* <LangButton /> */}
+        </div>
+        <div className={styles.ham} onClick={() => sethamLink(!hamLink)}>
+          <FaCaretDown />
         </div>
       </div>
     </div>

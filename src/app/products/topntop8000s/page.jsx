@@ -6,11 +6,10 @@ const page = () => {
     <div className="singleproductdiv">
       <div className="singleprodimage">
         <Image
-          className=""
+          className="singleprodimageimg"
           src="https://www.vigenindia.com/uploaded_files/servimages/service_1a7e1b9.png"
           alt="topntop8000s"
-          width={700}
-          height={500}
+          layout="fill"
         />
       </div>
 

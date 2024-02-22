@@ -26,15 +26,15 @@ const About = () => {
       <p className={styles.aboutPara}>
         We are an unique name in the industry to provide a special range of
         products to our reputed customers.
-        <ul className={styles.ul}>
-          <li className={styles.li}>Ethical business policies</li>
-          <li className={styles.li}>Skilled professionals</li>
-          <li className={styles.li}>Timely delivery</li>
-          <li className={styles.li}>Easy payment modes</li>
-          <li className={styles.li}>Transparent dealings</li>
-          <li className={styles.li}>Client-centric approach</li>
-        </ul>
       </p>
+      <ul className={styles.ul}>
+        <li className={styles.li}>Ethical business policies</li>
+        <li className={styles.li}>Skilled professionals</li>
+        <li className={styles.li}>Timely delivery</li>
+        <li className={styles.li}>Easy payment modes</li>
+        <li className={styles.li}>Transparent dealings</li>
+        <li className={styles.li}>Client-centric approach</li>
+      </ul>
     </div>
   );
 };

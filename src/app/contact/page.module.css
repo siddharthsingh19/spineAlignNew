@@ -41,7 +41,7 @@
   background-color: rgba(0, 145, 255, 0.283);
 }
 
-.cont > p {
+.cont > a {
   font-size: 2rem;
 }
 .contactme {
@@ -51,4 +51,24 @@
 .contactme:hover {
   color: orangered;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .conWrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cont {
+    width: 90vw;
+    height: 200px;
+  }
+
+  .cont > a {
+    font-size: 1.2rem;
+  }
+
+  .conHeading {
+    font-size: 2rem;
+    margin: 150px 0 50px 0;
+  }
 }

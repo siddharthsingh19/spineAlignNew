@@ -1,11 +1,13 @@
 .aboutDiv {
-  margin-top: 200px;
+  margin-top: 150px;
+  text-align: center;
   line-height: 2rem;
 }
 
 .aboutHeading {
   font-size: 3rem;
   margin: 10px;
+  font-size: 2rem;
 }
 
 .aboutPara {
