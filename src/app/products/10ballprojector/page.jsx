@@ -6,14 +6,16 @@ const page = () => {
     <div className="singleproductdiv">
       <div className="singleprodimage">
         <Image
-          className="singleprodimageimg"
+          className="singleprodimageimg "
           src="https://www.vigenindia.com/uploaded_files/servimages/service_c183249.png"
           alt="topntop8500"
-          layout="fill"
+          width={350}
+          height={350}
         />
       </div>
-
-      <h1>10 BALL PROJECTOR</h1>
+      <div className="proDesc">
+        <h1>10 BALL PROJECTOR</h1>
+      </div>
       <br />
       <br />
       <Products />

@@ -30,13 +30,16 @@ const links = [
 
 const Navbar = () => {
   const [hamLink, sethamLink] = useState(false);
+  const closeNav = () => {
+    sethamLink(false);
+  };
   return (
     <div className="nav-container">
       <div className={styles.container_wrapper}>
         <Link href="/" className={styles.logo}>
           SpineAlign
         </Link>
-        <div className={hamLink ? "links hlinks" : "links"}>
+        <div className={hamLink ? "links hlinks" : "links"} onClick={closeNav}>
           {links.map((link) => (
             <Link key={link.id} href={link.url} className={styles.link}>
               {link.title}
